@@ -1,0 +1,88 @@
+.panel {
+  background: #1f2630;
+  height: 360px;
+  width: 360px;
+  border-radius: 30px;
+  text-align: left;
+  padding: 50px;
+}
+
+.star {
+  border-radius: 100%;
+  background: #262e34;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.description {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonArray {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.rating {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: #262f38;
+}
+
+.rating:hover {
+  background: #7b8897;
+}
+
+.rating:focus {
+  background: #fc7613;
+}
+
+.submit {
+  width: 100%;
+  border-radius: 20px;
+  background: #fc7613;
+  color: white;
+}
+
+.submit:hover {
+  width: 100%;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #fc7613;
+}
+
+.panelThank {
+  background: #1f2630;
+  height: 360px;
+  width: 360px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+.ratingSelect {
+  background: #212e3d;
+  color: #fc7613;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
